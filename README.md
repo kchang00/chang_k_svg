@@ -8,7 +8,11 @@ Folder structure created. First commit.
 
 Updated HTML.
 
-3:50pm
+3:50pm dev.kc.html.inClass
 
-Uploaded example SVG and JPEG. Updated index and CSS
+Uploaded example SVG and JPEG. Updated index and CSS.
+
+4:17pm dev.kc.script.inClass
+
+Modified index. Updated JS.
 
