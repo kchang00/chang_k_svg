@@ -16,4 +16,6 @@ Uploaded example SVG and JPEG. Updated index and CSS.
 
 Modified index. Updated JS.
 
-01/21 2:13pm - Kayla
+01/21 3:40pm - Kayla
+
+Added raw SVG code to index and modified CSS in SVG. Changed colours for hover, made finer details appear upon scaling up WOWie.
