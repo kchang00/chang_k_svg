@@ -4,11 +4,19 @@
 }
 
 .imageWrapper {
-	display: inline-block;
+/*	display: inline-block;*/
 	width: 45%;
 }
 
 img {
 	width: 100%;
 	display: block;
+}
+
+#badge {
+
+}
+
+.isabadge {
+	
 }

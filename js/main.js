@@ -1,13 +1,24 @@
 (() => {
-	// self-invoking anonymous function (or Lambda)
+		// what we want to work with
+		// 
+		// this is a 1 to 1 connection (selects 1 element)
+		var badge = document.querySelector("#badge");
 
-	var images = document.querySelectorAll('img') // Asks document to find CSS selector and give it to us
-	
-	// Remember: var => variable. Placeholder to reference things
-	// document is always the webpage
-	// anything after the . is a method or property
-	// . = a method, something you can do (etc. width, height. colour, query selector)
-	
-	console.log(images);
+		// this is one to many selection (gets a collection of elements)
+		var allTheBadges = document.querySelectorAll(".isabadge");
+
+		// what we want it to to
+		function logMyId() {
+			// log some stuff (displays in dev tools)
+			console.log(this.id);
+			//debugger;
+		}
+
+		// how do we do that?
+		// 1 to 1 event handling
+		badge.addEventListener("click", logMyId);
+
+		allTheBadges.forEach(currentbadge => currentbadge.
+			addEventListener("click", logMyId));
 
 })();
