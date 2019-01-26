@@ -6,4 +6,4 @@ Folder structure created. First commit.
 
 01/25/19 8:06pm
 
-Added icon SVGs.
+Added icon SVGs, CSS main, CSS reset, and HTML.
