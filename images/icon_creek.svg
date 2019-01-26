@@ -14,6 +14,18 @@
 		</style>
 	</defs>
 
+	<defs>
+		<script>
+			let icon_creek = document.querySelector("#creek");
+
+			function logId() {
+				console.log(this.id);
+			}
+
+			icon_creek.addEventListener("click", logId);
+		</script>
+	</defs>
+
 	<title>icon</title>
 	<g id="creek">
 		<g id="creek_tree3">

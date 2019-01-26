@@ -13,6 +13,18 @@
 		</style>
 	</defs>
 
+	<defs>
+		<script>
+			let icon_fish_circle = document.querySelector("#fish_circle");
+
+			function logId() {
+				console.log(this.id);
+			}
+
+			icon_fish_circle.addEventListener("click", logId);
+		</script>
+	</defs>
+
 	<title>icon</title>
 	<g id="fish_circle">
 		<g id="circle_fish2">

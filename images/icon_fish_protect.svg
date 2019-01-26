@@ -18,6 +18,18 @@
 		</style>
 	</defs>
 
+	<defs>
+		<script>
+			let icon_fish_protect = document.querySelector("#fish_protect");
+
+			function logId() {
+				console.log(this.id);
+			}
+
+			icon_fish_protect.addEventListener("click", logId);
+		</script>
+	</defs>
+
 	<title>icon</title>
 	<g id="fish_protect">
 		<path id="shield" class="cls-1" d="

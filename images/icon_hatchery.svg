@@ -15,6 +15,18 @@
 		</style>
 	</defs>
 
+	<defs>
+		<script>
+			let icon_hatchery = document.querySelector("#hatchery");
+
+			function logId() {
+				console.log(this.id);
+			}
+
+			icon_hatchery.addEventListener("click", logId);
+		</script>
+	</defs>
+
 	<title>icon</title>
 	<g id="hatchery">
 		<g id="hatchery_fish">

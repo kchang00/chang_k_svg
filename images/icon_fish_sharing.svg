@@ -24,6 +24,18 @@
 		</clipPath>
 	</defs>
 
+	<defs>
+		<script>
+			let icon_fish_sharing = document.querySelector("#fish_sharing");
+
+			function logId() {
+				console.log(this.id);
+			}
+
+			icon_fish_sharing.addEventListener("click", logId);
+		</script>
+	</defs>
+
 	<title>icon</title>
 	<g id="fish_sharing">
 		<g id="sharing_person2">

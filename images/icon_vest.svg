@@ -19,6 +19,18 @@
 
 	</defs>
 
+	<defs>
+		<script>
+			let icon_vest = document.querySelector("#vest");
+
+			function logId() {
+				console.log(this.id);
+			}
+
+			icon_vest.addEventListener("click", logId);
+		</script>
+	</defs>
+
 	<title>icon</title>
 	<g id="vest">
 		<path id="vest_bg" d="

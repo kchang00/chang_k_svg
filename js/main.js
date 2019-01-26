@@ -1,24 +1,24 @@
 (() => {
-		// what we want to work with
-		// 
-		// this is a 1 to 1 connection (selects 1 element)
-		var angler = document.querySelector("#angler");
 
-		// this is one to many selection (gets a collection of elements)
-		var allIcons = document.querySelectorAll(".icon");
+	// // this selects the button under the first SVG
+ //    var angler_button = document.querySelector("#angler_button");
 
-		// what we want it to to
-		function logMyId() {
-			// log some stuff (displays in dev tools)
-			console.log(this.id);
-			//debugger;
-		}
+ //    // this selects the inline SVG - I added an ID to it (see above)
+ //    var angler = document.querySelector('#angler');
 
-		// how do we do that?
-		// 1 to 1 event handling
-		angler.addEventListener("click", logMyId);
+ //    // this function runs when you click on the button
+ //    function logIcon() {
+ //      console.log(this.previousElementSibling.id);
+ //    }
 
-		allIcons.forEach(currentbadge => currentbadge.
-			addEventListener("click", logMyId));
+ //    // this function runs when you click on the inline SVG
+ //    function logMe() {
+ //      console.log(this.id);
+ //    }
 
+ //    // event handling for the button
+ //    angler_button.addEventListener("click", logIcon);
+
+ //    // event handling for the inline SVG
+ //    angler.addEventListener("click", logMe)
 })();
