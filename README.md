@@ -16,3 +16,8 @@ des.kc.htmlCSS - 11:14pm
 
 - Changed img tags to object tags. Added responsive design (changed fixed widths to percentages).
 - Ran a test with angler SVG
+
+des.kc.SVG - 1:40am
+
+- Finished modifying SVGs
+- Added hover effects

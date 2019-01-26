@@ -11,12 +11,18 @@
 			.cls-6{stroke-linecap:round;}
 			.cls-7{stroke-width:3.43px;}
 
-			#badge:hover .st2 { fill: #75FFD5; }
+
+			#angler:hover { fill:#46C9B3; transition: 0.3s ease; cursor: pointer;}
+			#angler:hover .cls-1, #angler:hover .cls-7, #angler:hover .cls-6 {stroke: #46C9B3; transition: 0.3s ease; cursor: pointer;}
 			
-			#angler_small_pocket_left_top, #angler_small_pocket_right_top { display: none; }
+			#angler_small_pocket_left, #angler_small_pocket_right, #angler_large_pocket_right, #angler_large_pocket_left, #vest_zipper, #angler_small_pocket_left_top, #angler_small_pocket_right_top, #angler_large_pocket_right_top1, #angler_large_pocket_right_top2, #angler_large_pocket_left_top1, #angler_large_pocket_left_top2 { display: none; }
+
+				@media screen and (min-width: 100px) {
+				#angler_small_pocket_left, #angler_small_pocket_right, #angler_large_pocket_right, #angler_large_pocket_left, #vest_zipper { display: block; }
+			}
 
 				@media screen and (min-width: 130px) {
-				#angler_small_pocket_left_top, #angler_small_pocket_right_top { display: block; }
+				#angler_small_pocket_left_top, #angler_small_pocket_right_top, #angler_large_pocket_right_top1, #angler_large_pocket_right_top2, #angler_large_pocket_left_top1, #angler_large_pocket_left_top2 { display: block; }
 			}
 
 		</style>
