@@ -1,4 +1,4 @@
-<svg id="angler" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 93.87 106.75">
+<svg id="angler" class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 93.87 106.75">
 	<defs>
 		<style>
 			.cls-1,.cls-4,.cls-5,.cls-6,.cls-7{fill:none;}
@@ -26,6 +26,23 @@
 			}
 
 		</style>
+	</defs>
+
+	<defs>
+		<script>
+			let icon_angler = document.querySelector("#angler");
+
+			var allIcons = document.querySelectorAll(".icon");
+
+			function logId() {
+				console.log(this.id);
+			}
+
+			icon_angler.addEventListener("click", logId);
+
+			allIcons.forEach(currentbadge => currentbadge.
+			addEventListener("click", logId));
+		</script>
 	</defs>
 
 	<title>icon</title>

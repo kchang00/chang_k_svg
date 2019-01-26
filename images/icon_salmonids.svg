@@ -16,6 +16,18 @@
 		</style>
 	</defs>
 
+	<defs>
+		<script>
+			let icon_salmonids = document.querySelector("#salmonids");
+
+			function logId() {
+				console.log(this.id);
+			}
+
+			icon_salmonids.addEventListener("click", logId);
+		</script>
+	</defs>
+
 	<title>icon</title>
 	<g id="salmonids">
 		<g id="salmonids_trout4">

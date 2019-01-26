@@ -21,3 +21,9 @@ des.kc.SVG - 1:40am
 
 - Finished modifying SVGs
 - Added hover effects
+
+dev.kc.JS - 2:52am
+
+- Added linked JS Buttons
+- Replaced Buttons with JS in SVG
+- Figure out how to use classList to toggle IDs???

@@ -14,6 +14,18 @@
 		</style>
 	</defs>
 
+	<defs>
+		<script>
+			let icon_give_back = document.querySelector("#give_back");
+
+			function logId() {
+				console.log(this.id);
+			}
+
+			icon_give_back.addEventListener("click", logId);
+		</script>
+	</defs>
+
 	<title>icon</title>
 	<g id="give_back">
 		<path id="give_water2" class="cls-1" d="
