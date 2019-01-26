@@ -2,10 +2,10 @@
 		// what we want to work with
 		// 
 		// this is a 1 to 1 connection (selects 1 element)
-		var badge = document.querySelector("#badge");
+		var angler = document.querySelector("#angler");
 
 		// this is one to many selection (gets a collection of elements)
-		var allTheBadges = document.querySelectorAll(".isabadge");
+		var allIcons = document.querySelectorAll(".icon");
 
 		// what we want it to to
 		function logMyId() {
@@ -16,9 +16,9 @@
 
 		// how do we do that?
 		// 1 to 1 event handling
-		badge.addEventListener("click", logMyId);
+		angler.addEventListener("click", logMyId);
 
-		allTheBadges.forEach(currentbadge => currentbadge.
+		allIcons.forEach(currentbadge => currentbadge.
 			addEventListener("click", logMyId));
 
 })();
