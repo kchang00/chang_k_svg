@@ -32,16 +32,22 @@
 		<script>
 			let icon_angler = document.querySelector("#angler");
 
-			var allIcons = document.querySelectorAll(".icon");
+<!-- 			let allIcons = document.querySelectorAll(".icon");
+
+			let allIcons.classList = 'icon'; -->
 
 			function logId() {
 				console.log(this.id);
 			}
 
 			icon_angler.addEventListener("click", logId);
+<!-- 
+			allIcons.classList.add(".icon");
 
-			allIcons.forEach(currentbadge => currentbadge.
-			addEventListener("click", logId));
+			allIcons.classList(list => {
+			list.addEventListener("click", logId);
+			}); -->
+
 		</script>
 	</defs>
 
@@ -107,4 +113,5 @@
 			<rect id="angler_rod_handle" x="67" y="93.59" width="3.82" height="12.14" rx="1.91"/>
 		</g>
 	</g>
+
 </svg>

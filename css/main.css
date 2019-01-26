@@ -96,15 +96,15 @@ h2 {
 	flex-direction: row;
 	justify-content: space-between;
 	margin-bottom: 50px;
-	padding: 20px;
 
 }
 
 .icon {
 	width: 20%;
-	display: inline;
+	display: block;
 /*	max-width: 150px;*/
 /*	margin: 20px 10px 20px 10px;*/
+/*	background-color: tomato;*/
 }
 
 #fish_circle, #fish_release, #salmonids {
